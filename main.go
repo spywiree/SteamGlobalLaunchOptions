@@ -79,7 +79,6 @@ func main() {
 	}
 
 	if *CLI.RestoreSteam {
-		fmt.Println(args)
 		if len(args) <= 1 {
 			_ = exec.Command("steam").Start()
 		} else {
