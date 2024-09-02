@@ -6,7 +6,7 @@ require (
 	github.com/Jleagle/steam-go v0.0.0-20231027203227-3dc26c48c3d2
 	github.com/alecthomas/kong v0.9.0
 	github.com/mdouchement/vdf v0.0.0-20180601133716-2d1e7ef80670
-	github.com/shirou/gopsutil/v4 v4.24.7
+	github.com/shirou/gopsutil/v4 v4.24.8
 )
 
 require (
@@ -18,5 +18,5 @@ require (
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/yhirose/go-peg v0.0.0-20210804202551-de25d6753cf1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
-	golang.org/x/sys v0.22.0 // indirect
+	golang.org/x/sys v0.24.0 // indirect
 )
