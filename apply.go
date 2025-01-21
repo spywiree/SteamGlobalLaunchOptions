@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/guregu/null/v5"
-	"github.com/spywiree-priv/SteamGlobalLaunchOptions/vdf"
+	"github.com/spywiree/SteamGlobalLaunchOptions/vdf"
 )
 
 func Backup(r io.ReadSeeker, path string) error {

@@ -1,4 +1,4 @@
-module github.com/spywiree-priv/SteamGlobalLaunchOptions
+module github.com/spywiree/SteamGlobalLaunchOptions
 
 go 1.23.3
 

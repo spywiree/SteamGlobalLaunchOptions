@@ -7,7 +7,7 @@ import (
 	"regexp"
 
 	"github.com/guregu/null/v5"
-	"github.com/spywiree-priv/SteamGlobalLaunchOptions/vdf/internal"
+	"github.com/spywiree/SteamGlobalLaunchOptions/vdf/internal"
 )
 
 var re = regexp.MustCompile(`(\".*?\")(?:\t\t(\".*\"))?`)
