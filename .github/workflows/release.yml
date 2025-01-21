@@ -10,4 +10,4 @@ permissions:
 
 jobs:
   release:
-    uses: spywiree-priv/meta/.github/workflows/release.yml@main
+    uses: spywiree/meta/.github/workflows/release.yml@main

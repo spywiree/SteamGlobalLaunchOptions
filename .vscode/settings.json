@@ -1,5 +1,3 @@
 {
-	"conventionalCommits.scopes": [
-		"vdf"
-	]
+  "conventionalCommits.scopes": ["vdf", "ci"]
 }
