@@ -86,7 +86,7 @@ func main() {
 		if len(args) <= 1 {
 			_ = exec.Command("steam").Start()
 		} else {
-			_ = exec.Command("steam", args[1:]...).Start()
+			_ = exec.Command("steam", args[1:]...).Start() // #nosec G204
 		}
 	}
 }
