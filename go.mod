@@ -3,7 +3,7 @@ module github.com/spywiree/SteamGlobalLaunchOptions
 go 1.23.3
 
 require (
-	github.com/alecthomas/kong v1.6.1
+	github.com/alecthomas/kong v1.7.0
 	github.com/guregu/null/v5 v5.0.0
 	github.com/shirou/gopsutil/v4 v4.24.12
 )
