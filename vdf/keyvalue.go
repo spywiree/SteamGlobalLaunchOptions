@@ -5,7 +5,7 @@ import (
 	"maps"
 	"strings"
 
-	"github.com/guregu/null/v5"
+	"github.com/guregu/null/v6"
 )
 
 type KeyValue struct {

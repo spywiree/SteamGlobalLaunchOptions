@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/guregu/null/v5"
+	"github.com/guregu/null/v6"
 	"github.com/spywiree/SteamGlobalLaunchOptions/vdf"
 )
 
