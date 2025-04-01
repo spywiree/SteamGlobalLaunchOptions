@@ -9,11 +9,11 @@ import (
 )
 
 func Backup(r io.ReadSeeker, path string) error {
-	dst, err := os.Create(path)
+	dst, err := os.Create(path) //#nosec G304
 	if err != nil {
 		return err
 	}
-	defer dst.Close()
+	defer dst.Close() //nolint:errcheck
 
 	_, err = r.Seek(0, io.SeekStart)
 	if err != nil {
@@ -25,11 +25,11 @@ func Backup(r io.ReadSeeker, path string) error {
 }
 
 func ApplyLaunchOptions(value, path string, overwrite bool) error {
-	f, err := os.OpenFile(path, os.O_RDWR, 0666)
+	f, err := os.OpenFile(path, os.O_RDWR, 0600) //#nosec G304
 	if err != nil {
 		return err
 	}
-	defer f.Close()
+	defer f.Close() //nolint:errcheck
 
 	data, err := vdf.ParseText(f)
 	if err != nil {
